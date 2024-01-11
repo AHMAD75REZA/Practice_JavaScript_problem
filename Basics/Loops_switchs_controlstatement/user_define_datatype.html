@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-define-datatype </title>
+</head>
+<body>
+    <h1>This is only about User-define-datatype</h1>
+
+    <script>
+        //Objects
+
+        let animal = {
+           name: "Cow",
+           legs: 4 
+        }
+        // Dot Notation
+        console.log(animal.name);
+
+        let legsProp = " legs"
+        //Bracket Notation
+        console.log(animal[legsProp]);
+
+
+        // Arrays are the list of item
+        let selectBooks = ["The Rudest Book Ever", "Think and grow Rich", "The honesty is the best policy"];
+        console.log(selectBooks[1]); //o/p: Think and grow Rich
+        console.log(selectBooks.length);//o/p: 3
+
+
+        //Function
+
+        function namasteworld(name, lastName){
+            console.log("Nameste "+ name + " " + lastName);
+
+        }
+        namasteworld("Vikram", "Gupta")
+        namasteworld("Ahmad" , "Reza");
+
+        function addition(a,b){
+            return a+b;
+        }    
+        console.log(addition(4,9));
+
+    </script>
+</body>
+</html>
